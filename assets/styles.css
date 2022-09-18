@@ -2,6 +2,11 @@ body{
     background-color: #282B59;
 }
 
+.i {
+    font-size: large;
+}
+
+
 /* NavBar Stuff */
 
 header {
@@ -15,11 +20,23 @@ nav{
     margin-left: auto;
     margin-right: auto;
     padding-top: 75px;
+
+}
+
+#nampfp {
     text-align: center;
+    
 }
 
 #pfp {
-    border-radius: 50%;  
+    border-radius: 50%; 
+    text-align: center;
+}
+
+#name {
+    color: white;
+    text-align: center;
+    font-size: xx-large;
 }
 
 
@@ -73,9 +90,9 @@ nav a:hover
 
 section 
 {
-    border: 1px solid green;
+    border: 1px solid #232650;
     border-radius: 25px;
-    background: #12A628;
+    background: #232650;
     padding: 20px;
     text-align: center;
 }
@@ -94,10 +111,11 @@ section #aboutme
 
 p 
 {
-    color: black;
+    color: white;
     text-align: center;
     flex-wrap: wrap;
     font-size: x-large;
+    font-family: 'Reem Kufi Fun', sans-serif;
 }
 
 .brdo
@@ -106,11 +124,73 @@ p
     margin-right: auto;
     max-width: 700px;
     padding-top: 1%;
-    display: flex;   
+ 
 }
 
 section #whatido
  {
     text-align: center;
     color: white;
+    display: inline-block;
+}
+
+h2 {
+    text-align: left;
+    color: royalblue;
+}
+
+h3 {
+    color: orange;
+    text-align: left;
+    font-size: larger;
+}
+
+#skills {
+    text-align: left;
+    font-size: large;
+    flex-direction: column;
+    position: relative;
+}
+
+#img {
+    height: 24px;
+    width: 21px;
+    
+}
+
+#text {
+    color: white;
+}
+
+dive#footer {
+    border: 1px solid #282B59;
+    border-radius: 25px;
+    background: #282B59;
+    padding: 20px;
+    text-align: center;
+    width: 700px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex
+}
+
+#socials {
+    width: auto;
+    height: auto;
+    font-size: xx-large;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}
+
+#socialinks{
+    color: white;
+    padding-right: 20px;
+    
+}
+
+#socialinks:hover {
+    font-size: 50px;
+    color: gold;
+    cursor: pointer;
 }
