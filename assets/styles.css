@@ -191,6 +191,7 @@ dive #footer {
     text-align: center;
     color: white;
     margin-top: 10px;
+    padding: 10px;
 }
 
 #socialinks {
@@ -200,7 +201,7 @@ dive #footer {
 }
 
 #socialinks:hover {
-    font-size: 40px;
+    font-size: 45px;
     color: gold;
     cursor: pointer;
 }
@@ -225,6 +226,7 @@ text-align: left;
 margin-left: auto;
 margin-right: auto;
 display: row;
+
 }
 
 #projects a {
