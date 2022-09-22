@@ -1,6 +1,9 @@
 body{
     background-color: #282B59;
+    font-family: 'Reem Kufi Fun', sans-serif;
 }
+
+
 
 .i {
     font-size: large;
@@ -14,7 +17,7 @@ header {
     justify-content: center;   
 }
 
-nav{
+nav {
     display: inline-table;
     width: 700px; 
     margin-left: auto;
@@ -40,8 +43,8 @@ nav{
 }
 
 
-.links 
-{
+.links {
+
     display: flex;
     flex-direction: row;
     list-style: none;
@@ -52,35 +55,35 @@ nav{
     padding-right: 25px;
 }
 
-nav a
-{
+nav a { 
+
     text-decoration: none;
     font-size: xx-large;
     color: white;
 }
 
-nav a:hover 
-{
+nav a:hover {
+
     background-color: #232650;
-    border: 5px solid #232650;
+    border: 1px solid #232650;
     cursor: pointer;
     border-spacing: 10px 10px;
     border-radius: 25px;
     padding: 10px;
-    text-decoration: underline;
+    font-weight: bold;
 }
 
 #about,
 #projects,
-#contact
-{
+#contact {
+
     padding: auto;
     margin-left: auto;
     margin-right: auto;
 }
 
-.mainme
-{
+.mainme {
+
     margin-left: auto;
     margin-right: auto;
     max-width: 700px;
@@ -88,8 +91,8 @@ nav a:hover
     display: flex;   
 }
 
-section 
-{
+section {
+
     border: 1px solid #232650;
     border-radius: 25px;
     background: #232650;
@@ -97,20 +100,20 @@ section
     text-align: center;
 }
 
-section #aboutme
- {
+section #aboutme { 
+ 
     text-align: center;
     color: white;
 }
 
-#aboutme 
-{
+#aboutme {
+
     margin-left: auto;
     margin-right: auto;
 }
 
-p 
-{
+p {
+
     color: white;
     text-align: center;
     flex-wrap: wrap;
@@ -118,8 +121,8 @@ p
     font-family: 'Reem Kufi Fun', sans-serif;
 }
 
-.brdo
-{
+.brdo {
+
     margin-left: auto;
     margin-right: auto;
     max-width: 700px;
@@ -127,11 +130,18 @@ p
  
 }
 
-section #whatido
- {
+section #whatido {
+ 
     text-align: center;
-    color: white;
+    color: royalblue;
     display: inline-block;
+}
+
+
+
+h1 u {
+ 
+    color: royalblue;
 }
 
 h2 {
@@ -162,7 +172,7 @@ h3 {
     color: white;
 }
 
-dive#footer {
+dive #footer {
     border: 1px solid #282B59;
     border-radius: 25px;
     background: #282B59;
@@ -183,14 +193,94 @@ dive#footer {
     margin-top: 10px;
 }
 
-#socialinks{
+#socialinks {
     color: white;
     padding-right: 20px;
     
 }
 
 #socialinks:hover {
-    font-size: 50px;
+    font-size: 40px;
     color: gold;
     cursor: pointer;
+}
+
+
+
+
+/* Project page styles */
+
+#projects h1 { 
+color: white;
+text-align: center;
+font-size: xx-large;
+}
+
+
+#projects {
+background-color: #232650;
+max-width: 1000px;
+display: flexbox;
+text-align: left;
+margin-left: auto;
+margin-right: auto;
+display: row;
+}
+
+#projects a {
+    color: white;
+}
+
+
+#bfproject {
+    border: 5px solid #282B59;
+    border-radius: 25px;
+    text-align: center;  
+}
+
+#bfproject h2{
+    text-align: center;
+}
+
+.projectimage {
+    max-width: 100%;
+    max-height: 400px;
+    height: auto;
+    width: auto; 
+    text-align: center;
+}
+
+#projectdiv {
+margin-top: 30px;
+}
+
+#currency {
+    border: 5px solid #282B59;
+    border-radius: 25px;
+}
+
+
+#currency h2 {
+    text-align: center;
+}
+#converter h2 {
+    text-align: center;
+}
+
+#currency p {
+    padding: 5px;
+}
+
+#projects #convertor {
+    border: 5px solid #282B59;
+    border-radius: 25px;
+
+}
+
+#converter {
+    border: 5px solid #282B59;
+    border-radius: 25px;
+    text-align: center;
+
+
 }
