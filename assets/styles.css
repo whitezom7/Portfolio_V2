@@ -231,6 +231,10 @@ display: row;
     color: white;
 }
 
+#projects a:hover {
+    color: blueviolet;
+}
+
 
 #bfproject {
     border: 5px solid #282B59;
