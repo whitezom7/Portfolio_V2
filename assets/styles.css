@@ -219,7 +219,6 @@ font-size: xx-large;
 
 
 #projects {
-background-color: #232650;
 max-width: 1000px;
 display: flexbox;
 text-align: left;
@@ -288,5 +287,6 @@ margin-top: 30px;
     border-radius: 25px;
     text-align: center;
 
-
 }
+
+
