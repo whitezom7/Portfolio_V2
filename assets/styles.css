@@ -64,8 +64,8 @@ nav a {
 
 nav a:hover {
 
-    background-color: #232650;
-    border: 1px solid #232650;
+    
+    
     cursor: pointer;
     border-spacing: 10px 10px;
     border-radius: 25px;
@@ -232,9 +232,6 @@ display: row;
     color: white;
 }
 
-#projects a:hover {
-    color: blueviolet;
-}
 
 
 #bfproject {
