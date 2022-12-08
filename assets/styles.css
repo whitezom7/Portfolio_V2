@@ -19,11 +19,16 @@ header {
 
 nav {
     display: inline-table;
-    width: 700px; 
+    width: 700px;
     margin-left: auto;
     margin-right: auto;
     padding-top: 75px;
 
+}
+
+nav.navbar {
+    padding: 0;
+    margin: 0;
 }
 
 #nampfp {
@@ -48,11 +53,12 @@ nav {
     display: flex;
     flex-direction: row;
     list-style: none;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 25px;
-    padding-left: 25px;
-    padding-right: 25px;
+    justify-content: center;
+}
+
+ul.links {
+    margin: 0%;
+    padding: 0%;
 }
 
 nav a { 
@@ -60,16 +66,11 @@ nav a {
     text-decoration: none;
     font-size: xx-large;
     color: white;
+    display: flex;
 }
 
 nav a:hover {
-
-    
-    
     cursor: pointer;
-    border-spacing: 10px 10px;
-    border-radius: 25px;
-    padding: 10px;
     font-weight: bold;
 }
 
