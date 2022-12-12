@@ -57,8 +57,8 @@ nav.navbar {
 }
 
 ul.links {
-    margin: 0%;
-    padding: 0%;
+    margin: 0;
+    padding: 0;
 }
 
 nav a { 
@@ -78,9 +78,10 @@ nav a:hover {
 #projects,
 #contact {
 
-    padding: auto;
+
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 10px;
 }
 
 .mainme {
@@ -174,7 +175,7 @@ h3 {
     color: white;
 }
 
-dive #footer {
+div #footer {
     border: 1px solid #282B59;
     border-radius: 25px;
     background: #282B59;
@@ -193,7 +194,7 @@ dive #footer {
     text-align: center;
     color: white;
     margin-top: 10px;
-    padding: 10px;
+    padding: 8px;
 }
 
 #socialinks {
@@ -222,11 +223,10 @@ font-size: xx-large;
 
 #projects {
 max-width: 1000px;
-display: flexbox;
 text-align: left;
 margin-left: auto;
 margin-right: auto;
-display: row;
+
 
 }
 
